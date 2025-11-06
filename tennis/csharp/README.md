@@ -11,6 +11,24 @@ $dotnet format
 $dotnet format Tennis/Tennis.csproj -vd
 $dotnet format Tennis.Tests/Tennis.Tests.csproj -vd
 $dotnet format Tennis-Refactoring-Kata.sln 
+```
+
+Enable analyzer of project
+```
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Nullable>enable</Nullable>
+    
+  </PropertyGroup>
+
+</Project>
 
 ```
 
