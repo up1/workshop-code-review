@@ -4,6 +4,10 @@ Run
 ```
 $dotnet restore
 $dotnet test
+
+#  Formatting, Style and analyze code with `.editorconfig` 
+$dotnet format
+
 ```
 
 

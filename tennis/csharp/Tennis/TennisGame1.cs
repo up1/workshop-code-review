@@ -1,4 +1,4 @@
-namespace Tennis
+﻿namespace Tennis
 {
     public class TennisGame1 : ITennisGame
     {
@@ -6,6 +6,9 @@ namespace Tennis
         private int m_score2 = 0;
         private string player1Name;
         private string player2Name;
+
+        private const string Love = "Love";
+        private const string Fifteen = "Fifteen";
 
         public TennisGame1(string player1Name, string player2Name)
         {

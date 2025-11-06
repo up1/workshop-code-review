@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using Xunit;
@@ -94,7 +94,7 @@ namespace Tennis.Tests
         {
             var game = new TennisGame6("player1", "player2");
             CheckAllScores(game, p1, p2, expected);
-        }        
+        }
         [Theory]
         [ClassData(typeof(TestDataGenerator))]
         public void Tennis7Test(int p1, int p2, string expected)
