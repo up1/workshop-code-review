@@ -5,8 +5,12 @@ Run
 $dotnet restore
 $dotnet test
 
-#  Formatting, Style and analyze code with `.editorconfig` 
+# Formatting, Style and analyze code with `.editorconfig` 
+# https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format
 $dotnet format
+$dotnet format Tennis/Tennis.csproj -vd
+$dotnet format Tennis.Tests/Tennis.Tests.csproj -vd
+$dotnet format Tennis-Refactoring-Kata.sln 
 
 ```
 

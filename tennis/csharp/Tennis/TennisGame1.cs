@@ -7,9 +7,6 @@
         private string player1Name;
         private string player2Name;
 
-        private const string Love = "Love";
-        private const string Fifteen = "Fifteen";
-
         public TennisGame1(string player1Name, string player2Name)
         {
             this.player1Name = player1Name;
