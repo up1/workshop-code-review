@@ -20,6 +20,13 @@ $mvnw checkstyle:checkstyle-aggregate
 
 Open report in file `./target/reports/checkstyle.html`
 
+## FindBugs or [SpotBugs](https://spotbugs.github.io/)
+```
+$mvnw spotbugs:check
+```
+
+Open report in file `./target/site/spotbugs.html`
+
 Prerequisites: a Java 21 Development Kit must be installed.
 
 ## Code Reading Practice

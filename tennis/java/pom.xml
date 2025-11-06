@@ -9,9 +9,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>22</maven.compiler.release>
+        <maven.compiler.release>21</maven.compiler.release>
 
         <junit.jupiter.version>5.13.4</junit.jupiter.version>
+        <spotbugs.skip>false</spotbugs.skip>
+        <spotbugs.failOnError>false</spotbugs.failOnError>
     </properties>
 
     <dependencies>
@@ -58,7 +60,41 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <!-- Replace FindBugs with SpotBugs Plugin Configuration -->
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.9.8.1</version>
+                <configuration>
+                    <effort>Max</effort>
+                    <threshold>Low</threshold>
+                    <xmlOutput>true</xmlOutput>
+                    <htmlOutput>true</htmlOutput>
+                    <excludeFilterFile>spotbugs-exclude.xml</excludeFilterFile>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.9.8.1</version> <!-- Use the appropriate version -->
+                <configuration>
+                    <!-- Optional: configure JVM arguments, e.g., to force English language -->
+                    <jvmArgs>-Duser.language=en</jvmArgs> 
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
 
 </project>
