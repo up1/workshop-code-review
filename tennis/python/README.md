@@ -5,6 +5,15 @@ Run
 $pip install -r requirements.txt
 ```
 
+[Ruff](https://github.com/astral-sh/ruff) :: Python linter and code formatter
+```
+$pip install ruff
+
+$ruff format
+$ruff check
+
+```
+
 ## Code Reading Practice
 Here is a list of github urls of all the TennisGame Python modules:
 
