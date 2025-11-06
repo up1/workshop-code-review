@@ -1,6 +1,11 @@
 # Tennis Refactoring Kata in C#
 
-For main description, see [top level README](../README.md).
+Run
+```
+$dotnet restore
+$dotnet test
+```
+
 
 ## Code Reading Practice
 Here is a list of github urls of all the TennisGame C# classes:
