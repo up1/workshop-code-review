@@ -6,7 +6,19 @@ It uses Java 21 and the [Maven Wrapper](https://maven.apache.org/wrapper/) to bu
 
 ## Build and run tests
 
-`./mvnw clean verify`
+```
+$mvnw clean
+$mvnw test
+```
+
+### [Checkstyle](https://checkstyle.org/)
+```
+$mvnw checkstyle:check
+$mvnw checkstyle:checkstyle
+$mvnw checkstyle:checkstyle-aggregate
+```
+
+Open report in file `./target/reports/checkstyle.html`
 
 Prerequisites: a Java 21 Development Kit must be installed.
 

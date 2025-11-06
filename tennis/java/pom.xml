@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.sammancoaching</groupId>
-  <artifactId>Tennis-Refactoring-Kata</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+    <groupId>org.sammancoaching</groupId>
+    <artifactId>Tennis-Refactoring-Kata</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,6 +29,34 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.3</version>
+            </plugin>
+            <!-- Checkstyle Plugin Configuration -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.6.0</version> <!-- Use the latest stable version -->
+                <executions>
+                    <execution>
+                        <id>verify-style</id>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <configLocation>checkstyle.xml</configLocation>
+                    <consoleOutput>true</consoleOutput>
+                    <failsOnError>true</failsOnError> <!-- Set to false to only warn -->
+                    <linkXRef>false</linkXRef>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.puppycrawl.tools</groupId>
+                        <artifactId>checkstyle</artifactId>
+                        <version>12.1.1</version> <!-- Pin the Checkstyle version -->
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
