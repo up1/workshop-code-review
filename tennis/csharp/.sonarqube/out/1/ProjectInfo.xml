@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Tennis.Tests</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>173b2d39-aeb3-4b75-b0b6-d4b09997f65c</ProjectGuid>
+  <FullPath>/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests/Tennis.Tests.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResultFiles>
+    <AnalysisResultFile Id="FilesToAnalyze" Location="/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/conf/1/FilesToAnalyze.txt" />
+  </AnalysisResultFiles>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/1/Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/1</Property>
+    <Property Name="sonar.cs.scanner.telemetry">/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/1/Telemetry.json</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net8.0</TargetFramework>
+</ProjectInfo>

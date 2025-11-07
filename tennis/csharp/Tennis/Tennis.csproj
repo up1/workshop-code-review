@@ -4,10 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <IsPackable>false</IsPackable>
 
-    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <!-- <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <Nullable>enable</Nullable>
+    <Nullable>enable</Nullable> -->
 
   </PropertyGroup>
 

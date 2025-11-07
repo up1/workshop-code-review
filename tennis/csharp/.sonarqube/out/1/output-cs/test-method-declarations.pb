@@ -1,0 +1,9 @@
+
+n/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests/TennisTests.csTennis.Tests'
+Tennis.Tests.TennisTestsTennis1Test'
+Tennis.Tests.TennisTestsTennis2Test'
+Tennis.Tests.TennisTestsTennis3Test'
+Tennis.Tests.TennisTestsTennis4Test'
+Tennis.Tests.TennisTestsTennis5Test'
+Tennis.Tests.TennisTestsTennis6Test'
+Tennis.Tests.TennisTestsTennis7Test

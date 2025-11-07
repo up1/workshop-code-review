@@ -1,0 +1,136 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.0"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1762499641000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "demo"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp"
+    },
+    {
+      "key": "sonar.sources",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/reports/format-report.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/global.json"
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB,173B2D39-AEB3-4B75-B0B6-D4B09997F65C"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.projectKey",
+      "value": "demo:4257EA3A-E7D8-45A9-B865-B632AAC1F9EB"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.projectName",
+      "value": "Tennis"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.projectBaseDir",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.working.directory",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/.sonar/mod0"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.sources",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/ITennisGame.cs,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/TennisGame1.cs,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/TennisGame2.cs,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/TennisGame3.cs,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/TennisGame4.cs,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/TennisGame5.cs,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/TennisGame6.cs,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/TennisGame7.cs,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/obj/Tennis.csproj.nuget.dgspec.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/obj/project.assets.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/obj/Debug/net8.0/Tennis.sourcelink.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis/bin/Debug/net8.0/Tennis.deps.json"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.cs.analyzer.projectOutPaths",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/0"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.cs.roslyn.reportFilePaths",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/0/Issues.json"
+    },
+    {
+      "key": "4257EA3A-E7D8-45A9-B865-B632AAC1F9EB.sonar.cs.scanner.telemetry",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/0/Telemetry.json"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.projectKey",
+      "value": "demo:173B2D39-AEB3-4B75-B0B6-D4B09997F65C"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.projectName",
+      "value": "Tennis.Tests"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.projectBaseDir",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.working.directory",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/.sonar/mod1"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.tests",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests/obj/Tennis.Tests.csproj.nuget.dgspec.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests/obj/project.assets.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests/obj/Debug/net8.0/Tennis.Tests.sourcelink.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests/bin/Debug/net8.0/Tennis.Tests.deps.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests/bin/Debug/net8.0/Tennis.Tests.runtimeconfig.json,/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/Tennis.Tests/TennisTests.cs"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.cs.analyzer.projectOutPaths",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/1"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.cs.roslyn.reportFilePaths",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/1/Issues.json"
+    },
+    {
+      "key": "173B2D39-AEB3-4B75-B0B6-D4B09997F65C.sonar.cs.scanner.telemetry",
+      "value": "/Users/somkiatpuisungnoen/data/slide/clean_code/workshop-code-review/tennis/csharp/.sonarqube/out/1/Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://152.42.245.88:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}
