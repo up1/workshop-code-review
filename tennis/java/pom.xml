@@ -14,6 +14,8 @@
         <junit.jupiter.version>5.13.4</junit.jupiter.version>
         <spotbugs.skip>false</spotbugs.skip>
         <spotbugs.failOnError>false</spotbugs.failOnError>
+
+        <sonar.java.binaries>target/classes</sonar.java.binaries>
     </properties>
 
     <dependencies>
